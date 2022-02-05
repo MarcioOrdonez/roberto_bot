@@ -1,0 +1,27 @@
+{
+  "name": "roberto_bot",
+  "version": "1.0.0",
+  "description": "Bot with the warmest welcome when you get into a discord channel.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcioOrdonez/roberto_bot.git"
+  },
+  "author": "Marcio Ordonez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarcioOrdonez/roberto_bot/issues"
+  },
+  "homepage": "https://github.com/MarcioOrdonez/roberto_bot#readme",
+  "dependencies": {
+    "discord.js": "12.2.0",
+    "dotenv": "^16.0.0",
+    "ytdl-core": "^4.10.1",
+    "ffmpeg-static": "^4.1.1",
+    "node-opus": "^0.3.3"
+  }
+}
